@@ -1,3 +1,4 @@
 {"ts":1374601310923,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1374601263018,"patch":[[{"diffs":[[1,"#!bash\n\ngit add -A\ngit commit -a\ngit push"]],"start1":0,"start2":0,"length1":0,"length2":41}]],"length":41,"saved":false}
 {"ts":1374601440208,"patch":[[{"diffs":[[0,"#!"],[1,"/bin/"],[0,"bash\n\ngi"]],"start1":0,"start2":0,"length1":10,"length2":15}]],"length":46,"saved":false}
+{"ts":1374601815260,"patch":[[{"diffs":[[0,"ommit -a"],[1," -m $1"],[0,"\ngit pus"]],"start1":29,"start2":29,"length1":16,"length2":22}]],"length":52,"saved":false}
