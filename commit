@@ -1,5 +1,10 @@
 #!/bin/bash
 
 git add -A
-git commit -a -m $1
+if [ -z "$1" ]
+ then
+  git commit -a
+ else
+  git commit -m "$1"
+fi
 git push
