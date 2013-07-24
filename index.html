@@ -16,6 +16,7 @@
   <script type="text/javascript">
     	var canvasElement = $("<canvas width='640' height='480' style='border: 1px solid;'></canvas>");
 		canvasElement.appendTo('body');
+        var canvas = canvasElement.get(0).getContext("2d");
         
         /* This will draw a line on the canvas*/
     	canvas.beginPath();
