@@ -3,13 +3,13 @@
 <head>
   <title>My Github Page</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script type="text/javascript">
+  <script>
   function myFunction()
     {
         $("#h01").html("Hello jQuery");
     }
+    $(document).ready(myFunction);
   </script>
-$(document).ready(myFunction);
 </head>
 <body>
   <h1 id="h01"></h1>
