@@ -16,5 +16,13 @@
   <script type="text/javascript">
     	var canvasElement = $("<canvas width='640' height='480' style='border: 1px solid;'></canvas>");
 		canvasElement.appendTo('body');
+        
+        /* This will draw a line on the canvas*/
+    	canvas.beginPath();
+		canvas.moveTo(0,100);
+		canvas.lineTo(640, 100);
+		canvas.closePath();
+		canvas.strokeStyle = "#000";
+		canvas.stroke();
   </script>
 </body>
